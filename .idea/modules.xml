@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/largequant-cloud-auth/largequant-cloud-auth.iml" filepath="$PROJECT_DIR$/largequant-cloud-auth/largequant-cloud-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/largequant-cloud-common/largequant-cloud-common.iml" filepath="$PROJECT_DIR$/largequant-cloud-common/largequant-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/largequant-cloud-eureka/largequant-cloud-eureka.iml" filepath="$PROJECT_DIR$/largequant-cloud-eureka/largequant-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/largequant-cloud-gateway/largequant-cloud-gateway.iml" filepath="$PROJECT_DIR$/largequant-cloud-gateway/largequant-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/largequant-springcloud.iml" filepath="$PROJECT_DIR$/largequant-springcloud.iml" />
+    </modules>
+  </component>
+</project>

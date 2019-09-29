@@ -1,0 +1,16 @@
+# Spring custom configuration
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cloud-eureka
+  # global coding
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+  # global time formatting
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
