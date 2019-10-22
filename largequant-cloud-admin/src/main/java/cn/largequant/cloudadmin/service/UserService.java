@@ -1,7 +1,7 @@
 package cn.largequant.cloudadmin.service;
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dto.UserDto;
-import com.sxbang.friday.model.SysUser;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dto.UserDto;
+import cn.largequant.cloudadmin.model.SysUser;
 
 public interface UserService {
 

@@ -1,14 +1,14 @@
 package cn.largequant.cloudadmin.service.impl;
 
-import com.sxbang.friday.base.result.ResponseCode;
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dao.RoleDao;
-import com.sxbang.friday.dao.RolePermissionDao;
-import com.sxbang.friday.dao.RoleUserDao;
-import com.sxbang.friday.dto.RoleDto;
-import com.sxbang.friday.model.SysRole;
-import com.sxbang.friday.model.SysRoleUser;
-import com.sxbang.friday.service.RoleService;
+import cn.largequant.cloudadmin.base.result.ResponseCode;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dao.RoleDao;
+import cn.largequant.cloudadmin.dao.RolePermissionDao;
+import cn.largequant.cloudadmin.dao.RoleUserDao;
+import cn.largequant.cloudadmin.dto.RoleDto;
+import cn.largequant.cloudadmin.model.SysRole;
+import cn.largequant.cloudadmin.model.SysRoleUser;
+import cn.largequant.cloudadmin.service.RoleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

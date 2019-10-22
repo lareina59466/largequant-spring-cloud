@@ -1,10 +1,10 @@
 package cn.largequant.cloudadmin.controller;
 
 import com.alibaba.fastjson.JSONArray;
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dto.RoleDto;
-import com.sxbang.friday.model.SysPermission;
-import com.sxbang.friday.service.PermissionService;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dto.RoleDto;
+import cn.largequant.cloudadmin.model.SysPermission;
+import cn.largequant.cloudadmin.service.PermissionService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

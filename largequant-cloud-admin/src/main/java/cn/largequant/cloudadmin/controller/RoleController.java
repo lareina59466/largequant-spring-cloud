@@ -1,10 +1,10 @@
 package cn.largequant.cloudadmin.controller;
 
-import com.sxbang.friday.base.result.PageTableRequest;
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dto.RoleDto;
-import com.sxbang.friday.model.SysRole;
-import com.sxbang.friday.service.RoleService;
+import cn.largequant.cloudadmin.base.result.PageTableRequest;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dto.RoleDto;
+import cn.largequant.cloudadmin.model.SysRole;
+import cn.largequant.cloudadmin.service.RoleService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;

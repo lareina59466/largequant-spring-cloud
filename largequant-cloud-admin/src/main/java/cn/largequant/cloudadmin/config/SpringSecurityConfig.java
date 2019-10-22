@@ -1,9 +1,9 @@
 package cn.largequant.cloudadmin.config;
 
-import com.sxbang.friday.security.authentication.MyAuthenctiationFailureHandler;
-import com.sxbang.friday.security.authentication.MyAuthenticationSuccessHandler;
-import com.sxbang.friday.security.authentication.MyLogoutSuccessHandler;
-import com.sxbang.friday.security.authentication.RestAuthenticationAccessDeniedHandler;
+import cn.largequant.cloudadmin.security.authentication.MyAuthenctiationFailureHandler;
+import cn.largequant.cloudadmin.security.authentication.MyAuthenticationSuccessHandler;
+import cn.largequant.cloudadmin.security.authentication.MyLogoutSuccessHandler;
+import cn.largequant.cloudadmin.security.authentication.RestAuthenticationAccessDeniedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

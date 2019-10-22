@@ -2,7 +2,7 @@ package cn.largequant.cloudadmin.dto;
 
 
 
-import com.sxbang.friday.model.SysRole;
+import cn.largequant.cloudadmin.model.SysRole;
 
 import java.util.List;
 

@@ -1,12 +1,12 @@
 package cn.largequant.cloudadmin.service.impl;
 
 import com.alibaba.fastjson.JSONArray;
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dao.PermissionDao;
-import com.sxbang.friday.dao.RolePermissionDao;
-import com.sxbang.friday.model.SysPermission;
-import com.sxbang.friday.service.PermissionService;
-import com.sxbang.friday.util.TreeUtils;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dao.PermissionDao;
+import cn.largequant.cloudadmin.dao.RolePermissionDao;
+import cn.largequant.cloudadmin.model.SysPermission;
+import cn.largequant.cloudadmin.service.PermissionService;
+import cn.largequant.cloudadmin.util.TreeUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

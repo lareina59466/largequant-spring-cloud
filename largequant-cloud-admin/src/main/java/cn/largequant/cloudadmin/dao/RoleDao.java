@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.dao;
 
-import com.sxbang.friday.model.SysRole;
+import cn.largequant.cloudadmin.model.SysRole;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

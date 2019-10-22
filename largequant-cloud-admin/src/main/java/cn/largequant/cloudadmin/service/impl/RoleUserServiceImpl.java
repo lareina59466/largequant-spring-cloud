@@ -1,9 +1,9 @@
 package cn.largequant.cloudadmin.service.impl;
 
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dao.RoleUserDao;
-import com.sxbang.friday.model.SysRoleUser;
-import com.sxbang.friday.service.RoleUserService;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dao.RoleUserDao;
+import cn.largequant.cloudadmin.model.SysRoleUser;
+import cn.largequant.cloudadmin.service.RoleUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

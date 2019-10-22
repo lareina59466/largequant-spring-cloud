@@ -1,8 +1,8 @@
 package cn.largequant.cloudadmin.service;
 
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dto.RoleDto;
-import com.sxbang.friday.model.SysRole;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dto.RoleDto;
+import cn.largequant.cloudadmin.model.SysRole;
 
 public interface RoleService {
 

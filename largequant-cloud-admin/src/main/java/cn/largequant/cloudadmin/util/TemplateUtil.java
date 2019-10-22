@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.util;
 
-import com.sxbang.friday.dto.GenerateInput;
+import cn.largequant.cloudadmin.dto.GenerateInput;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

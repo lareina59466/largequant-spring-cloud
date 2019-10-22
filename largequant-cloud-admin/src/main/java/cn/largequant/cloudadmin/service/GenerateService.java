@@ -1,8 +1,8 @@
 package cn.largequant.cloudadmin.service;
 
 
-import com.sxbang.friday.dto.BeanField;
-import com.sxbang.friday.dto.GenerateInput;
+import cn.largequant.cloudadmin.dto.BeanField;
+import cn.largequant.cloudadmin.dto.GenerateInput;
 
 import java.util.List;
 

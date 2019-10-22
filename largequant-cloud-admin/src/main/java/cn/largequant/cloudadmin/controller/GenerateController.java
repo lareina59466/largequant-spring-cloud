@@ -1,9 +1,9 @@
 package cn.largequant.cloudadmin.controller;
 
-import com.sxbang.friday.dto.BeanField;
-import com.sxbang.friday.dto.GenerateDetail;
-import com.sxbang.friday.dto.GenerateInput;
-import com.sxbang.friday.service.GenerateService;
+import cn.largequant.cloudadmin.dto.BeanField;
+import cn.largequant.cloudadmin.dto.GenerateDetail;
+import cn.largequant.cloudadmin.dto.GenerateInput;
+import cn.largequant.cloudadmin.service.GenerateService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

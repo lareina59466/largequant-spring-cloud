@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.dao;
 
-import com.sxbang.friday.model.SysRoleUser;
+import cn.largequant.cloudadmin.model.SysRoleUser;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;

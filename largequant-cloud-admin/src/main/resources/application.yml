@@ -32,7 +32,7 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
 
 mybatis:
-  type-aliases-package: com.sxbang.friday.model
+  type-aliases-package: cn.largequant.cloudadmin.model
   mapper-locations: classpath:/mybatis-mappers/*
   configuration:
     mapUnderscoreToCamelCase: true

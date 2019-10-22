@@ -1,8 +1,8 @@
 package cn.largequant.cloudadmin.service;
 
 import com.alibaba.fastjson.JSONArray;
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.model.SysPermission;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.model.SysPermission;
 
 import java.util.List;
 

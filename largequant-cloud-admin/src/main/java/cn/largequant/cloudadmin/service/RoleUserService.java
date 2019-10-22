@@ -1,7 +1,7 @@
 package cn.largequant.cloudadmin.service;
 
 
-import com.sxbang.friday.base.result.Results;
+import cn.largequant.cloudadmin.base.Results;
 
 public interface RoleUserService {
 

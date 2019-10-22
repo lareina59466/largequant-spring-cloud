@@ -1,8 +1,8 @@
 package cn.largequant.cloudadmin.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sxbang.friday.model.SysPermission;
-import com.sxbang.friday.model.SysUser;
+import cn.largequant.cloudadmin.model.SysPermission;
+import cn.largequant.cloudadmin.model.SysUser;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

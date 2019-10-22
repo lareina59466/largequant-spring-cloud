@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.dao;
 
-import com.sxbang.friday.model.RolePermission;
+import cn.largequant.cloudadmin.model.RolePermission;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

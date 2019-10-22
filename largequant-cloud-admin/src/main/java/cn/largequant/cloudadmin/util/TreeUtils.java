@@ -2,7 +2,7 @@ package cn.largequant.cloudadmin.util;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.sxbang.friday.model.SysPermission;
+import cn.largequant.cloudadmin.model.SysPermission;
 
 import java.util.List;
 

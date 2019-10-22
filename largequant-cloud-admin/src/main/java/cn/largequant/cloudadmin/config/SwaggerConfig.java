@@ -20,7 +20,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.sxbang.friday.controller"))
+                .apis(RequestHandlerSelectors.basePackage("cn.largequant.cloudadmin.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

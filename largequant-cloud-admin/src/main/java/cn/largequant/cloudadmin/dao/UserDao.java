@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.dao;
 
-import com.sxbang.friday.model.SysUser;
+import cn.largequant.cloudadmin.model.SysUser;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

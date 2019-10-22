@@ -1,7 +1,7 @@
 package cn.largequant.cloudadmin.controller;
 
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.service.RoleUserService;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.service.RoleUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

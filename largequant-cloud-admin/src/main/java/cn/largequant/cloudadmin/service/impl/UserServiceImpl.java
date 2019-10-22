@@ -1,12 +1,12 @@
 package cn.largequant.cloudadmin.service.impl;
 
-import com.sxbang.friday.base.result.Results;
-import com.sxbang.friday.dao.RoleUserDao;
-import com.sxbang.friday.dao.UserDao;
-import com.sxbang.friday.dto.UserDto;
-import com.sxbang.friday.model.SysRoleUser;
-import com.sxbang.friday.model.SysUser;
-import com.sxbang.friday.service.UserService;
+import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.dao.RoleUserDao;
+import cn.largequant.cloudadmin.dao.UserDao;
+import cn.largequant.cloudadmin.dto.UserDto;
+import cn.largequant.cloudadmin.model.SysRoleUser;
+import cn.largequant.cloudadmin.model.SysUser;
+import cn.largequant.cloudadmin.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

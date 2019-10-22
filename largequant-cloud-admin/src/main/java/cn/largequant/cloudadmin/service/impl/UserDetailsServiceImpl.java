@@ -1,11 +1,11 @@
 package cn.largequant.cloudadmin.service.impl;
 
 
-import com.sxbang.friday.dao.PermissionDao;
-import com.sxbang.friday.dto.LoginUser;
-import com.sxbang.friday.model.SysPermission;
-import com.sxbang.friday.model.SysUser;
-import com.sxbang.friday.service.UserService;
+import cn.largequant.cloudadmin.dao.PermissionDao;
+import cn.largequant.cloudadmin.dto.LoginUser;
+import cn.largequant.cloudadmin.model.SysPermission;
+import cn.largequant.cloudadmin.model.SysUser;
+import cn.largequant.cloudadmin.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;

@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.dao;
 
-import com.sxbang.friday.model.SysPermission;
+import cn.largequant.cloudadmin.model.SysPermission;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;

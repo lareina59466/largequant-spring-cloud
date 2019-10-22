@@ -1,11 +1,11 @@
 package cn.largequant.cloudadmin.service.impl;
 
 import com.google.common.collect.Maps;
-import com.sxbang.friday.dto.BeanField;
-import com.sxbang.friday.dto.GenerateInput;
-import com.sxbang.friday.service.GenerateService;
-import com.sxbang.friday.util.StrUtil;
-import com.sxbang.friday.util.TemplateUtil;
+import cn.largequant.cloudadmin.dto.BeanField;
+import cn.largequant.cloudadmin.dto.GenerateInput;
+import cn.largequant.cloudadmin.service.GenerateService;
+import cn.largequant.cloudadmin.util.StrUtil;
+import cn.largequant.cloudadmin.util.TemplateUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
