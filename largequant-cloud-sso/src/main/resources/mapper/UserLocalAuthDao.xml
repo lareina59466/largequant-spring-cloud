@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="mapper.UserLocalAuthDao">
+
+    <update id="update"  parameterType="cn.largequant.cloudcommon.entity.sso.UserLocalAuth">
+        UPDATE user_local_auth
+        <trim prefix="set" suffixOverrides=",">
+            <if test="username!=null">username=#{username},</if>
+            <if test="password!=null">password=#{password},</if>
+            <if test="phone!=null">DEST_ID=#{phone},</if>
+            <if test="salt!=null">DEST_TYPE=#{salt},</if>
+        </trim>
+        WHERE auth_id=#{authId}
+    </update>
+
+</mapper>

@@ -1,0 +1,30 @@
+# 端口号
+server:
+  port: 9009
+
+spring:
+  # 使用哪个配置文件的标识名称(开发环境-dev,测试环境-test,生产环境-prod)
+  profiles:
+    active: dev
+  # 配置应用程序名称
+  application:
+    name: cloud-sso
+  # 全局http格式
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  # 全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  # thymeleaf配置
+  thymeleaf:
+    cache: false
+    mode: HTML
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    suffix: .html
