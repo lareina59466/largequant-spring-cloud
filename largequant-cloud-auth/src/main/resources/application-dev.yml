@@ -1,43 +1,45 @@
-# eureka configuration
+# eureka配置 客户端配置，注册到服务中心
 eureka:
   client:
     service-url:
-      # Registration center url
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka
+
 spring:
+  # redis配置
   redis:
-    # Redis database index (default is 0)
+    # 选择redis的第几号数据库
     database: 0
-    # Redis server address
+    # 服务器
     host: 127.0.0.1
-    # Redis server connection port
+    # 端口
     port: 6379
-    # Redis server connection password (default is empty) Do not write this attribute if there is no configuration password.
+    # 密码
     password: 123456
-    # connection pool
+    # 连接池
     lettuce:
       pool:
-        # Connection pool maximum number of connections (use negative values to indicate no limit)
+        # 最大连接数 (负数代表无限制)
         max-active: 8
-        # Connection pool maximum blocking wait time (use negative values to indicate no limit)
+        # 连接池最大阻塞时间 (ms) (负数代表无限制)
         max-wait: 60000
-        # The largest idle connection in the connection pool
+        # 最大空闲连接数
         max-idle: 8
-        # The smallest idle connection in the connection pool
+        # 最小空闲连接数
         min-idle: 1
-    # Connection timeout (ms)
+    # 连接超时时间 (ms)
     timeout: 10000
-  # mysql
+  # mysql配置
   datasource:
+    # 连接池类型
     type: com.alibaba.druid.pool.DruidDataSource
-    # initialization druid
+    # 初始化druid
     druid:
-      # mysql database address
+      # jdbc基础配置
       url: jdbc:mysql://127.0.0.1:3306/ywh_code?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8
       username: root
       password: 123456
       driver-class-name: com.mysql.cj.jdbc.Driver
-      # Monitor page username and password and page address
+      # 监控页面的用户名和密码 以及页面地址
       stat-view-servlet:
         login-username: admin
         login-password: admin
@@ -87,11 +89,13 @@ spring:
       max-pool-prepared-statement-per-connection-size: 20
       # Combine monitoring data from multiple DruidDataSources
       use-global-data-source-stat: true
-# mybatisPlus configuration     http://mp.baomidou.com/#/quick-start
+
+# mybatisPlus配置
 mybatis-plus:
+  # 指定mapper.xml位置
   mapper-locations: classpath*:/mybatis-mappers/*
-  # MyBaits alias package scan path, this attribute can be used to register the alias of the class in the package. After registration, the class name can be directly used in the XML file corresponding to the Mapper instead of using the fully qualified class name.
+  # mybaits别名包扫描路径
   type-aliases-package: cn.largequant.cloudcommon.entity
-  # Automatic conversion of database table and entity class hump naming
+  # 数据库表与实体类驼峰命名的自动转换
   configuration:
     map-underscore-to-camel-case: true

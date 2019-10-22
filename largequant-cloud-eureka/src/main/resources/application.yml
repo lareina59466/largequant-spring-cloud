@@ -1,16 +1,17 @@
-# Spring custom configuration
 spring:
+  # 使用哪个配置文件的标识名称(开发环境-dev,测试环境-test,生产环境-prod)
   profiles:
     active: dev
+  # 配置应用程序名称
   application:
     name: cloud-eureka
-  # global coding
+  # 全局http格式
   http:
     encoding:
       charset: UTF-8
       force: true
       enabled: true
-  # global time formatting
+  # 全局时间格式
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8

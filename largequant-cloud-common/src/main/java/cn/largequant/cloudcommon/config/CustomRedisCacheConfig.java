@@ -19,10 +19,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import java.time.Duration;
 
 /**
- * CreateTime: 2019-06-23 22:47
- * ClassName: CustomRedisCacheConfig
- * Package: cn.largequant.cloudcommon.config
- * Describe:
  * 自定义redis的配置类
  *
  * @author YWH

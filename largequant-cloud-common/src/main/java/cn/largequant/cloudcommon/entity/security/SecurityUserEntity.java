@@ -7,10 +7,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 
 /**
- * CreateTime: 2019-06-30 17:36
- * ClassName: SecurityUserEntity
- * Package: cn.largequant.cloudcommon.entity.security
- * Describe:
  * security用户实体类
  *
  * @author YWH

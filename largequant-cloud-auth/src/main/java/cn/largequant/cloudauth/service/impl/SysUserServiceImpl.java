@@ -2,31 +2,18 @@ package cn.largequant.cloudauth.service.impl;
 
 import cn.largequant.cloudauth.dao.sysuser.SysUserDao;
 import cn.largequant.cloudauth.service.SysUserService;
-import cn.largequant.cloudcommon.entity.SysUserEntity;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import cn.largequant.cloudcommon.entity.security.SysUserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;
 
 /**
- * CreateTime: 2019-06-30 18:36
- * ClassName: SysUserServiceImpl
- * Package: cn.largequant.cloudauth.service.impl
- * Describe:
  * 用户sevice实现类
  *
- * @author YWH
  */
 @Service
 public class SysUserServiceImpl implements SysUserService {
-
-    private static final Logger LOG = LoggerFactory.getLogger(SysUserServiceImpl.class);
 
     private SysUserDao sysUserDao;
 

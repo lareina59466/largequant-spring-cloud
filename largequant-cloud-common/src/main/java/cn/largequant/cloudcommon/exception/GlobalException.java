@@ -24,13 +24,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 /**
- * CreateTime: 2019-06-23 22:16
- * ClassName: GlobalException
- * Package: cn.largequant.cloudcommon.exception
- * Describe:
  * 全局异常类
  *
- * @author YWH
  */
 @RestControllerAdvice
 public class GlobalException {

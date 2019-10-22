@@ -1,10 +1,6 @@
 package cn.largequant.cloudcommon.exception;
 
 /**
- * CreateTime: 2019-06-16 22:15
- * ClassName: MyException
- * Package: cn.largequant.cloudcommon.exception
- * Describe:
  * 自定义异常，可以throws的时候用自己的异常类
  *
  * @author YWH

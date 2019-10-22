@@ -23,6 +23,12 @@
         <module>largequant-cloud-eureka</module>
         <module>largequant-cloud-gateway</module>
         <module>largequant-cloud-auth</module>
+        <module>largequant-cloud-sso</module>
+        <module>largequant-cloud-search</module>
+        <module>largequant-cloud-comment</module>
+        <module>largequant-cloud-notice</module>
+        <module>largequant-cloud-pay</module>
+        <module>largequant-cloud-seckill</module>
     </modules>
 
     <properties>

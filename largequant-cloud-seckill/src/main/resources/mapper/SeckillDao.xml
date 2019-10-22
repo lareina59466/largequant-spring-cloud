@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.largequant.cloudseckill.dao.SeckillDao">
+
+    <select id="getSeckillList" resultType="cn.largequant.cloudcommon.entity.seckill.Seckill">
+        SELECT
+          seckill_id id,name,number,start_time,end_time,create_time
+        FROM
+          t_seckill
+        ORDER BY
+          create_time DESC
+        LIMIT #{offset},#{limit}
+    </select>
+
+    <select id="getSeckillById" parameterType="long" resultType="cn.largequant.cloudcommon.entity.seckill.Seckill">
+        SELECT
+          seckill_id id,name,number,start_time,end_time,create_time
+        FROM
+          t_seckill
+        WHERE
+          seckill_id = #{seckillId}
+    </select>
+
+    <select id="getNumberById" resultType="long">
+        SELECT number FROM t_seckill WHERE seckill_id = #{seckillId}
+    </select>
+
+    <update id="updateNumberDecrement">
+        UPDATE t_seckill
+        SET
+          number = number - 1
+        WHERE seckill_id = #{seckillId}
+          AND start_time <![CDATA[ <= ]]> #{killTime}
+          AND end_time <![CDATA[ >= ]]> #{killTime}
+          AND number > 0;
+    </update>
+
+    <update id="updateNumberDecrementByVersion">
+        UPDATE t_seckill
+        SET
+          number = number - 1,version = version + 1
+        WHERE seckill_id = #{seckillId}
+          AND version = #{version}
+          AND start_time <![CDATA[ <= ]]> #{killTime}
+          AND end_time <![CDATA[ >= ]]> #{killTime}
+          AND number > 0;
+    </update>
+
+    <select id="getNumberByIdForUpdate" resultType="long">
+        SELECT number FROM t_seckill WHERE seckill_id = #{seckillId} FOR UPDATE
+    </select>
+
+</mapper>

@@ -1,10 +1,6 @@
 package cn.largequant.cloudcommon.enums;
 
 /**
- * CreateTime: 2019-06-23 22:32
- * ClassName: SystemCodeEnum
- * Package: cn.largequant.cloudcommon.enums
- * Describe:
  * 系统状态码
  *
  * @author YWH

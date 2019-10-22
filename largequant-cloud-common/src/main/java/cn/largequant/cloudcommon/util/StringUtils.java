@@ -1,13 +1,8 @@
 package cn.largequant.cloudcommon.util;
 
 /**
- * CreateTime: 2019-06-23 20:22
- * ClassName: StringUtils
- * Package: cn.largequant.cloudcommon.util
- * Describe:
  * 字符工具类
  *
- * @author YWH
  */
 public class StringUtils {
 

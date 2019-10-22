@@ -19,18 +19,13 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 /**
- * CreateTime: 2019-06-30 16:55
- * ClassName: SecurityConfigurer
- * Package: cn.largequant.cloudcommon.config.security
- * Describe:
  * Security配置类
- * @author YWH
+ *
  */
 @EnableWebSecurity
 public class SecurityConfigurer extends WebSecurityConfigurerAdapter {
 
     private UserDetailsService userDetailsService;
-
 
     @Autowired
     public SecurityConfigurer(UserDetailsService userDetailsServicer) {

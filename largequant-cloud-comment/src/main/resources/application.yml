@@ -1,0 +1,24 @@
+server:
+  port: 9009
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: cloud-comment
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  thymeleaf:
+    cache: false
+    mode: HTML
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    suffix: .html

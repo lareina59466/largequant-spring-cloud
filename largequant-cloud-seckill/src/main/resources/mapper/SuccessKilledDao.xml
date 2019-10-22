@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.largequant.cloudseckill.dao.SuccessKilledDao">
+
+    <select id="getByUserId" resultType="cn.largequant.cloudcommon.entity.seckill.SuccessKilled">
+        SELECT seckill_id, user_phone, create_time, state
+        FROM
+          t_success_killed
+        WHERE seckill_id = #{seckillId}
+          AND user_phone = #{userPhone}
+    </select>
+
+    <select id="getNumberById" resultType="long">
+        SELECT number FROM t_success_killed WHERE seckill_id = #{seckillId}
+    </select>
+
+    <select id="selectState" resultType="short">
+        SELECT state FROM t_success_killed WHERE seckill_id = #{seckillId} AND userId = #{userId}
+    </select>
+
+    <insert id="insert">
+        INSERT INTO t_success_killed(seckill_id,state,user_phone)
+        VALUES
+          (#{seckillId},#{state},#{userPhone})
+    </insert>
+
+</mapper>

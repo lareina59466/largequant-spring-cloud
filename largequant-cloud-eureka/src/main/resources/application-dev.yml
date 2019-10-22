@@ -1,18 +1,20 @@
+# 端口号
 server:
   port: 8761
-# eureka configuration，configuring the registration service center
+# 配置注册服务中心
 eureka:
   instance:
     hostname: localhost
-  # Configure to turn off self-protection and configure the interval at which Eureka Server cleans up invalid nodes as needed. Production environment is not recommended to close
+  # 配置关闭自我保护，并按需配置Eureka Server清理无效节点的时间间隔。生产环境不建议关闭
   server:
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 6000
     peer-node-read-timeout-ms: 90000
     response-cache-update-interval-ms: 20000
   client:
-    # Indicate that you are not a client and do not self-register
+    # 表明自己不是一个客户端，并且不进行自注册
     register-with-eureka: false
     fetch-registry: false
+    # 注册中心的访问地址
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

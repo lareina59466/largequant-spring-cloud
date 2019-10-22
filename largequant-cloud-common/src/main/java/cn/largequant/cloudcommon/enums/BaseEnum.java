@@ -1,13 +1,8 @@
 package cn.largequant.cloudcommon.enums;
 
 /**
- * CreateTime: 2019-06-23 19:09
- * ClassName: BaseEnum
- * Package: cn.largequant.cloudcommon.enums
- * Describe:
  * 基础枚举类
  *
- * @author YWH
  */
 public enum BaseEnum {
 

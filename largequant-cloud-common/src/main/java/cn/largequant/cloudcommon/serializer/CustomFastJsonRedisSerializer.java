@@ -12,13 +12,8 @@ import org.springframework.util.Assert;
 import java.nio.charset.Charset;
 
 /**
- * CreateTime: 2019-06-23 22:43
- * ClassName: CustomFastJsonRedisSerializer
- * Package: cn.largequant.cloudcommon.serializer
- * Describe:
  * 自定义序列化
  *
- * @author YWH
  */
 public class CustomFastJsonRedisSerializer<T> implements RedisSerializer<T> {
 

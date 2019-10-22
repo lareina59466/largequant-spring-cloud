@@ -1,16 +1,11 @@
 package cn.largequant.cloudauth.service;
 
-import cn.largequant.cloudcommon.entity.SysUserEntity;
+import cn.largequant.cloudcommon.entity.security.SysUserEntity;
 import org.springframework.security.core.AuthenticationException;
 
 /**
- * CreateTime: 2019-06-30 18:33
- * ClassName: SysUserService
- * Package: cn.largequant.cloudauth.service
- * Describe:
  * 用户逻辑层
  *
- * @author YWH
  */
 public interface SysUserService {
 
