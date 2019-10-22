@@ -1,7 +1,7 @@
 package cn.largequant.cloudadmin.controller;
 
 import com.alibaba.fastjson.JSONArray;
-import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.base.Results;
 import cn.largequant.cloudadmin.dto.RoleDto;
 import cn.largequant.cloudadmin.model.SysPermission;
 import cn.largequant.cloudadmin.service.PermissionService;

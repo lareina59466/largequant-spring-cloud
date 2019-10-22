@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.service.impl;
 
-import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.base.Results;
 import cn.largequant.cloudadmin.dao.RoleUserDao;
 import cn.largequant.cloudadmin.dao.UserDao;
 import cn.largequant.cloudadmin.dto.UserDto;

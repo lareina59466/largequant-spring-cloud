@@ -1,7 +1,7 @@
 package cn.largequant.cloudadmin.service.impl;
 
-import cn.largequant.cloudadmin.base.result.ResponseCode;
-import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.base.ResponseCode;
+import cn.largequant.cloudadmin.base.Results;
 import cn.largequant.cloudadmin.dao.RoleDao;
 import cn.largequant.cloudadmin.dao.RolePermissionDao;
 import cn.largequant.cloudadmin.dao.RoleUserDao;

@@ -1,5 +1,5 @@
 package cn.largequant.cloudadmin.service;
-import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.base.Results;
 import cn.largequant.cloudadmin.dto.UserDto;
 import cn.largequant.cloudadmin.model.SysUser;
 

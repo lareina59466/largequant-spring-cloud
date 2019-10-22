@@ -2,8 +2,8 @@ package ${serviceImplPkgName};
 
 import java.util.Map;
 
-import {groupPkgName}.base.result.Results;
-import {groupPkgName}.base.result.ResponseCode;
+import {groupPkgName}.base.Results;
+import {groupPkgName}.base.ResponseCode;
 import {daoPackageName}.{daoName};
 import {beanPackageName}.{beanName};
 import {servicePkgName}.{serviceName};

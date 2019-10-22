@@ -1,6 +1,6 @@
 package cn.largequant.cloudadmin.controller;
 
-import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.base.Results;
 import cn.largequant.cloudadmin.service.RoleUserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;

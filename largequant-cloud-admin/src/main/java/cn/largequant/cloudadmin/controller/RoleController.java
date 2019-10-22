@@ -1,7 +1,7 @@
 package cn.largequant.cloudadmin.controller;
 
-import cn.largequant.cloudadmin.base.result.PageTableRequest;
-import cn.largequant.cloudadmin.base.result.Results;
+import cn.largequant.cloudadmin.base.PageTableRequest;
+import cn.largequant.cloudadmin.base.Results;
 import cn.largequant.cloudadmin.dto.RoleDto;
 import cn.largequant.cloudadmin.model.SysRole;
 import cn.largequant.cloudadmin.service.RoleService;
